@@ -1,0 +1,553 @@
+mixed-port: 7890
+allow-lan: true
+mode: rule
+log-level: warning
+
+proxies:
+  - name: "🇭🇰 Pro-香港-BGP-04|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 53941
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇭🇰 Pro-香港-BGP-05|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 47835
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇭🇰 Pro-香港-BGP-06|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 58416
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇭🇰 Pro-香港-BGP-07|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 47605
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇭🇰 Pro-香港-BGP-08|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 56812
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇭🇰 Pro-香港-BGP-09|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 20000
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇭🇰 Pro-香港-家庭宽带-01|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 36690
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇭🇰 Pro-香港-家庭宽带-02|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 36679
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇭🇰 Pro-香港-家庭宽带-04|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 36681
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇯🇵 Pro-日本-BGP-01|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 50187
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇯🇵 Pro-日本-BGP-02|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 50188
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇯🇵 Pro-日本-BGP-03|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 50189
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇸🇬 Pro-新加坡-BGP-01|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 47533
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇸🇬 Pro-新加坡-BGP-02|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 47534
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇸🇬 Pro-新加坡-BGP-03|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 53127
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇸🇬 Pro-新加坡-BGP-04|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 53945
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇺🇸 Pro-美国-BGP-01|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 36677
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇺🇸 Pro-美国-BGP-02|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 23009
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇺🇸 Pro-美国-BGP-03|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 58420
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇺🇸 Pro-美国-BGP-04|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 48861
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇺🇸 Pro-美国-BGP-05|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 60310
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+    ws-opts:
+      path: {path}
+
+  - name: "🇹🇼 Pro-台湾-BGP-01|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 49111
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇹🇼 Pro-台湾-BGP-02|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 53137
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇰🇷 Pro-韩国-01|v202605"
+    type: vless
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 54114
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    network: tcp
+    udp: true
+
+  - name: "🇲🇾 马来西亚-Pro-01|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 25841
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇲🇾 马来西亚-Pro-02|v202605"
+    type: vless
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 25851
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    network: tcp
+    udp: true
+
+  - name: "🇹🇭 泰国-Pro-01|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 48414
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇻🇳 越南-Pro-01|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 47606
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇹🇷 土耳其-Pro-01|v202605"
+    type: vless
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 25842
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    network: tcp
+    udp: true
+
+  - name: "🇬🇧 英国-Pro-01|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 53125
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇩🇪 德国-Pro-01|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 53943
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇫🇷 法国-Pro-01|v202605"
+    type: vless
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 34765
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    network: tcp
+    udp: true
+
+  - name: "🇭🇰 Basic-香港-BGP-01|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 50882
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇭🇰 Basic-香港-BGP-02|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 36675
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇭🇰 Basic-香港-BGP-03|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 34795
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇭🇰 Basic-香港-BGP-04|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 58418
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇭🇰 Basic-香港-BGP-05|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 47836
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇭🇰 Basic-香港-BGP-06|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 36671
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇭🇰 Basic-香港-家庭宽带-01|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 35419
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇭🇰 Basic-香港-家庭宽带-02|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 49511
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇯🇵 Basic-日本-BGP-02|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 58417
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇸🇬 Basic-新加坡-BGP-01|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 36676
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇸🇬 Basic-新加坡-BGP-02|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 48752
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇺🇸 Basic-美国-BGP-01|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 47602
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇺🇸 Basic-美国-BGP-02|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 49121
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇺🇸 Basic-美国-BGP-03|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 49125
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇺🇸 Basic-美国-BGP-04|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 49126
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+  - name: "🇹🇼 Basic-台湾-BGP-01|v202605"
+    type: vmess
+    server: f6d9e90d381923a5.4457e382562c31da.bilibilicloud01.com
+    port: 41765
+    uuid: 6e9bd10e-5133-3219-b545-be250004a138
+    alterId: 0
+    cipher: auto
+    udp: true
+
+proxy-groups:
+  - name: "🚀 自动选择"
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies:
+      - "🇭🇰 Pro-香港-BGP-04|v202605"
+      - "🇭🇰 Pro-香港-BGP-05|v202605"
+      - "🇭🇰 Pro-香港-BGP-06|v202605"
+      - "🇭🇰 Pro-香港-BGP-07|v202605"
+      - "🇭🇰 Pro-香港-BGP-08|v202605"
+      - "🇭🇰 Pro-香港-BGP-09|v202605"
+      - "🇭🇰 Pro-香港-家庭宽带-01|v202605"
+      - "🇭🇰 Pro-香港-家庭宽带-02|v202605"
+      - "🇭🇰 Pro-香港-家庭宽带-04|v202605"
+      - "🇯🇵 Pro-日本-BGP-01|v202605"
+      - "🇯🇵 Pro-日本-BGP-02|v202605"
+      - "🇯🇵 Pro-日本-BGP-03|v202605"
+      - "🇸🇬 Pro-新加坡-BGP-01|v202605"
+      - "🇸🇬 Pro-新加坡-BGP-02|v202605"
+      - "🇸🇬 Pro-新加坡-BGP-03|v202605"
+      - "🇸🇬 Pro-新加坡-BGP-04|v202605"
+      - "🇺🇸 Pro-美国-BGP-01|v202605"
+      - "🇺🇸 Pro-美国-BGP-02|v202605"
+      - "🇺🇸 Pro-美国-BGP-03|v202605"
+      - "🇺🇸 Pro-美国-BGP-04|v202605"
+      - "🇺🇸 Pro-美国-BGP-05|v202605"
+      - "🇹🇼 Pro-台湾-BGP-01|v202605"
+      - "🇹🇼 Pro-台湾-BGP-02|v202605"
+      - "🇰🇷 Pro-韩国-01|v202605"
+      - "🇲🇾 马来西亚-Pro-01|v202605"
+      - "🇲🇾 马来西亚-Pro-02|v202605"
+      - "🇹🇭 泰国-Pro-01|v202605"
+      - "🇻🇳 越南-Pro-01|v202605"
+      - "🇹🇷 土耳其-Pro-01|v202605"
+      - "🇬🇧 英国-Pro-01|v202605"
+      - "🇩🇪 德国-Pro-01|v202605"
+      - "🇫🇷 法国-Pro-01|v202605"
+      - "🇭🇰 Basic-香港-BGP-01|v202605"
+      - "🇭🇰 Basic-香港-BGP-02|v202605"
+      - "🇭🇰 Basic-香港-BGP-03|v202605"
+      - "🇭🇰 Basic-香港-BGP-04|v202605"
+      - "🇭🇰 Basic-香港-BGP-05|v202605"
+      - "🇭🇰 Basic-香港-BGP-06|v202605"
+      - "🇭🇰 Basic-香港-家庭宽带-01|v202605"
+      - "🇭🇰 Basic-香港-家庭宽带-02|v202605"
+      - "🇯🇵 Basic-日本-BGP-02|v202605"
+      - "🇸🇬 Basic-新加坡-BGP-01|v202605"
+      - "🇸🇬 Basic-新加坡-BGP-02|v202605"
+      - "🇺🇸 Basic-美国-BGP-01|v202605"
+      - "🇺🇸 Basic-美国-BGP-02|v202605"
+      - "🇺🇸 Basic-美国-BGP-03|v202605"
+      - "🇺🇸 Basic-美国-BGP-04|v202605"
+      - "🇹🇼 Basic-台湾-BGP-01|v202605"
+
+  - name: "🌐 节点选择"
+    type: select
+    proxies:
+      - "🚀 自动选择"
+      - "🇭🇰 Pro-香港-BGP-04|v202605"
+      - "🇭🇰 Pro-香港-BGP-05|v202605"
+      - "🇭🇰 Pro-香港-BGP-06|v202605"
+      - "🇭🇰 Pro-香港-BGP-07|v202605"
+      - "🇭🇰 Pro-香港-BGP-08|v202605"
+      - "🇭🇰 Pro-香港-BGP-09|v202605"
+      - "🇭🇰 Pro-香港-家庭宽带-01|v202605"
+      - "🇭🇰 Pro-香港-家庭宽带-02|v202605"
+      - "🇭🇰 Pro-香港-家庭宽带-04|v202605"
+      - "🇯🇵 Pro-日本-BGP-01|v202605"
+      - "🇯🇵 Pro-日本-BGP-02|v202605"
+      - "🇯🇵 Pro-日本-BGP-03|v202605"
+      - "🇸🇬 Pro-新加坡-BGP-01|v202605"
+      - "🇸🇬 Pro-新加坡-BGP-02|v202605"
+      - "🇸🇬 Pro-新加坡-BGP-03|v202605"
+      - "🇸🇬 Pro-新加坡-BGP-04|v202605"
+      - "🇺🇸 Pro-美国-BGP-01|v202605"
+      - "🇺🇸 Pro-美国-BGP-02|v202605"
+      - "🇺🇸 Pro-美国-BGP-03|v202605"
+      - "🇺🇸 Pro-美国-BGP-04|v202605"
+      - "🇺🇸 Pro-美国-BGP-05|v202605"
+      - "🇹🇼 Pro-台湾-BGP-01|v202605"
+      - "🇹🇼 Pro-台湾-BGP-02|v202605"
+      - "🇰🇷 Pro-韩国-01|v202605"
+      - "🇲🇾 马来西亚-Pro-01|v202605"
+      - "🇲🇾 马来西亚-Pro-02|v202605"
+      - "🇹🇭 泰国-Pro-01|v202605"
+      - "🇻🇳 越南-Pro-01|v202605"
+      - "🇹🇷 土耳其-Pro-01|v202605"
+      - "🇬🇧 英国-Pro-01|v202605"
+      - "🇩🇪 德国-Pro-01|v202605"
+      - "🇫🇷 法国-Pro-01|v202605"
+      - "🇭🇰 Basic-香港-BGP-01|v202605"
+      - "🇭🇰 Basic-香港-BGP-02|v202605"
+      - "🇭🇰 Basic-香港-BGP-03|v202605"
+      - "🇭🇰 Basic-香港-BGP-04|v202605"
+      - "🇭🇰 Basic-香港-BGP-05|v202605"
+      - "🇭🇰 Basic-香港-BGP-06|v202605"
+      - "🇭🇰 Basic-香港-家庭宽带-01|v202605"
+      - "🇭🇰 Basic-香港-家庭宽带-02|v202605"
+      - "🇯🇵 Basic-日本-BGP-02|v202605"
+      - "🇸🇬 Basic-新加坡-BGP-01|v202605"
+      - "🇸🇬 Basic-新加坡-BGP-02|v202605"
+      - "🇺🇸 Basic-美国-BGP-01|v202605"
+      - "🇺🇸 Basic-美国-BGP-02|v202605"
+      - "🇺🇸 Basic-美国-BGP-03|v202605"
+      - "🇺🇸 Basic-美国-BGP-04|v202605"
+      - "🇹🇼 Basic-台湾-BGP-01|v202605"
+
+rules:
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+  - GEOIP,CN,DIRECT
+  - MATCH,🌐 节点选择
