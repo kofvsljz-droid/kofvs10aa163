@@ -192,8 +192,6 @@ proxies:
     alterId: 0
     cipher: auto
     udp: true
-    ws-opts:
-      path: {path}
 
   - name: "🇹🇼 Pro-台湾-BGP-01|v202605"
     type: vmess
